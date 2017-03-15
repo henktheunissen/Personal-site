@@ -1,23 +1,23 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css');
-
-::selection{
-  background: black;
+::selection {
+    background: black;
 }
 
 .jumbotron-naam {
     color: white;
-    background-color: orangered;
+    background-color: #3F51B5;
     border-radius: 0;
     width: 100%;
     height: auto;
     padding: 3.5%;
     margin: 0;
-    margin-right: 10px;
 }
-
+.footer {
+    text-align: center;
+}
 .jumbotron-talen {
     color: white;
-    background-color: cadetblue;
+    background-color: #FF4081;
     margin: 0;
     border-radius: 0;
     width: 100%;
@@ -32,4 +32,47 @@
 .language {
     font-size: 1.2rem;
     padding-left: 5%;
+}
+
+.jumbotron-akaratos {
+    background-image: url(../../assets/img/akaratos.jpg);
+    background-size: cover;
+    border-radius: 0;
+    color: white;
+    margin: 0;
+    width: 100%;
+}
+
+.jumbotron-jouwbedrijf {
+    background-image: url(../../assets/img/jouwBedrijf.jpg);
+    background-size: cover;
+    border-radius: 0;
+    color: white;
+    margin: 0;
+    width: 100%;
+}
+
+.jumbotron-contact {
+    background-color: #3F51B5;
+    border-radius: 0;
+    color: white;
+    margin: 0;
+    width: 100%;
+    padding: 1%;
+}
+
+.nopaddingleft {
+    padding-left: 0px;
+}
+.nopaddingright {
+    padding-right: 0px;
+}
+#main {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 360px) {
+    .display-3 {
+        font-size: 3rem;
+    }
 }
