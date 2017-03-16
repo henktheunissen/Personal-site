@@ -43,6 +43,11 @@
     width: 100%;
 }
 
+.jumbotron-akaratos:hover { 
+    -webkit-filter: blur(5px); /* Safari */
+    filter: blur(5px);
+}
+
 .jumbotron-jouwbedrijf {
     background-image: url(../../assets/img/jouwBedrijf.jpg);
     background-size: cover;
@@ -60,6 +65,7 @@
     width: 100%;
     padding: 1%;
 }
+
 
 .nopaddingleft {
     padding-left: 0px;
