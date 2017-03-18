@@ -5,16 +5,19 @@
 
 .jumbotron-naam {
     color: white;
-    background-color: #3F51B5;
+    background-color: #49cbc1/*#3F51B5*/
+    ;
     border-radius: 0;
     width: 100%;
     height: auto;
-    padding: 3.5%;
+    padding: 5%;
     margin: 0;
 }
+
 .footer {
     text-align: center;
 }
+
 .jumbotron-talen {
     color: white;
     background-color: #FF4081;
@@ -34,6 +37,32 @@
     padding-left: 5%;
 }
 
+.jumbotron-akaratosgroot {
+    background-color: #ff7c7c;
+    border-radius: 0;
+    color: white;
+    margin: 0;
+    width: 100%;
+    padding: 0%;
+}
+
+.jumbotron-akaratosgroot2 {
+    background-color: #ff7c7c;
+    border-radius: 0;
+    color: white;
+    margin: 0;
+    width: 100%;
+    padding: 0%;
+}
+
+.containerakaratos{
+    display: flex
+}
+
+.jumbotron-akaratosgroot img {
+    float: left
+}
+
 .jumbotron-akaratos {
     background-image: url(../../assets/img/akaratos.jpg);
     background-size: cover;
@@ -41,11 +70,6 @@
     color: white;
     margin: 0;
     width: 100%;
-}
-
-.jumbotron-akaratos:hover { 
-    -webkit-filter: blur(5px); /* Safari */
-    filter: blur(5px);
 }
 
 .jumbotron-jouwbedrijf {
@@ -66,19 +90,25 @@
     padding: 1%;
 }
 
-
 .nopaddingleft {
     padding-left: 0px;
 }
+
 .nopaddingright {
     padding-right: 0px;
 }
+
 #main {
     overflow: hidden;
 }
 
 @media screen and (max-width: 360px) {
     .display-3 {
-        font-size: 3rem;
+        font-size: 2.8rem;
+    }
+    .jumbotron-naam {
+        padding-right: 5%;
+        margin-right: 5%;
+        text-align: left;
     }
 }
