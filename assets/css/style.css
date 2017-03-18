@@ -2,7 +2,6 @@
 ::selection {
     background: black;
 }
-
 .jumbotron-naam {
     color: white;
     background-color: #49cbc1/*#3F51B5*/
@@ -37,30 +36,24 @@
     padding-left: 5%;
 }
 
-.jumbotron-akaratosgroot {
+#akaratosgroot {
     background-color: #ff7c7c;
     border-radius: 0;
     color: white;
-    margin: 0;
     width: 100%;
-    padding: 0%;
 }
 
-.jumbotron-akaratosgroot2 {
-    background-color: #ff7c7c;
-    border-radius: 0;
-    color: white;
-    margin: 0;
-    width: 100%;
-    padding: 0%;
+#akaratosgroot img {
+    float: left;
+    padding-left: 170px;
+    padding-right: 10px;
 }
 
-.containerakaratos{
-    display: flex
+#akaratosgroot h1 {
+    padding-top: 30px;
 }
-
-.jumbotron-akaratosgroot img {
-    float: left
+#akaratosgroot p {
+    padding-right: 5%;
 }
 
 .jumbotron-akaratos {
