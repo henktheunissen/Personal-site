@@ -63,7 +63,7 @@
     <div class="jumbotron jumbotron-contact">
         <div class="col-md-12">
             <div class="container">
-                <p class="lead footer"><strong>Contact: </strong>info@henktheunissen.nl</p>
+                <p class="lead footer">&copy; henktheunissen.nl <?= date("Y"); ?></p>
             </div>
         </div>
     </div>
